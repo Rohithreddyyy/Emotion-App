@@ -1,8 +1,9 @@
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
-transformers==4.37.2
-torch==2.1.2
-groq==0.4.2
-python-dotenv==1.0.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.3
+transformers>=4.37.2
+torch
+groq>=0.4.2
+python-dotenv>=1.0.0
 scikit-learn
