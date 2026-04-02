@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Specific (Optional)
+# If you don't want to push evaluation metrics
+# backend/data/evaluation_metrics.json
