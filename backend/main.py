@@ -65,8 +65,8 @@ async def startup_event():
     """Pre-load the emotion model on startup"""
     logger.info("Starting up... Loading emotion model")
     try:
-        preload_model()
-        logger.info("Emotion model loaded successfully")
+        # preload_model() 
+        logger.info("Emotion model will load on first request to prevent Render Port Timeout.")
     except Exception as e:
         logger.warning(f"Could not preload model: {e}. Will load on first request.")
 
